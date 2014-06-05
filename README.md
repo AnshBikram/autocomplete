@@ -3,18 +3,18 @@ autocomplete
 
 An jQuery library, autocomplete.js. It can be used as a select drop-down menu and also for ajax auto-complete etc. And also you can do a lot more with this light jQuery library js.
 
-----
+
 
 Dependecies
 ------------
 The only requirement for jquery-autocomplete is jQuery. No other plugins are required.
 
----
+
 Version
 ----
 1.0
 
----
+
 
 Usage
 -----
@@ -36,7 +36,6 @@ Usage
 $('input-element').autocomplete(options)
 ```
 
------
 Options
 -------
 This options are default:
