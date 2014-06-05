@@ -3,18 +3,18 @@ autocomplete
 
 An jQuery library, autocomplete.js. It can be used as a select drop-down menu and also for ajax auto-complete etc. And also you can do a lot more with this light jQuery library js.
 
-
+----
 
 Dependecies
 ------------
 The only requirement for jquery-autocomplete is jQuery. No other plugins are required.
 
-
+---
 Version
 ----
 1.0
 
-
+---
 
 Usage
 -----
@@ -36,6 +36,7 @@ Usage
 $('input-element').autocomplete(options)
 ```
 
+-----
 Options
 -------
 This options are default:
@@ -77,4 +78,43 @@ This options are default:
     //whether to allow duplicate data field.
 }
 
+```
+---
+
+Methods
+-------
+The methods can be applied to a autocomplete object as below:
+
+```js
+
+var autoComp = $('input-element').autocomplete();
+
+autoComp.getData()
+//gets the current data of autocomplete object has
+autoComp.setData(data)
+//sets current data of autocomplete object
+autoComp.setOptions(options)
+//sets current options of autocomplete object
+autoComp.addData(data)
+//appends data to existing data of autocomplete object
+autoComp.getListElement()
+//returns the dropdown element of autocomplete object
+autoComp.getStaticData()
+//returns static data of autocomplete object
+autoComp.setStaticData(staticData)
+//sets static data of autocomplete object
+autoComp.getLastValue()
+//returns last selected value of autocomplete object
+autoComp.getValue()
+//returns current value of input field
+autoComp.setValue(val)
+//sets input field value
+autoComp.showList()
+//force show the dropdown
+autoComp.hideList()
+//force hide the dropdown
+autoComp.rebuildList()
+//refreshes content of dropdown list
+autoComp.destroy()
+//destroys autocomplete object
 ```
