@@ -23,7 +23,7 @@ Usage
 
 ```html
 <script type="text/javascript" src="path/to/jQuery.js"></script>
-<script type="text/javascript" src="path/to/aucomplete.js"></script>
+<script type="text/javascript" src="path/to/autocomplete.js"></script>
 ```
 
 ##### Initialization
@@ -85,7 +85,7 @@ The methods can be applied to a autocomplete object as below:
 
 ```js
 
-var autoComp = $('input-element').autocomplete();
+var autoComp = $('input-element').autocomplete(options);
 
 autoComp.getData()
 //gets the current data of autocomplete object has
