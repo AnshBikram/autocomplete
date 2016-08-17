@@ -116,3 +116,5 @@ autoComp.rebuildList()
 autoComp.destroy()
 //destroys autocomplete object
 ```
+
+Developed in 2014
