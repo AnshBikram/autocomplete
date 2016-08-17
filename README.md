@@ -1,7 +1,7 @@
 autocomplete
 ============
 
-An jQuery library, autocomplete.js. It can be used as a select drop-down menu and also for ajax auto-complete etc. And also you can do a lot more with this light jQuery library js.
+An jQuery library, autocomplete.js. It can be used as a select drop-down menu and for ajax auto-complete etc. And you can do a lot more with this light jQuery library js.
 
 
 Dependecies
@@ -43,7 +43,7 @@ This options are default:
 {
     data: [],
     //Data those are to be displayed in the dropdown list. 
-    //Data has to be passed as a array.
+    //Data has to be passed as an array.
     height: '',
     //e.g '100px'
     //Height of the dropdown. Default will make th height so as to contain all 
@@ -54,23 +54,23 @@ This options are default:
     //default width will take the width of the input box.
     sort: true,
     //[true|false],
-    //if sort true the the sorted input array will be displayed in th dropdown
-    //if false arrayis data displayaed as it is given
+    //if sort true the the sorted input array will be displayed in the dropdown
+    //if false options will be displayed as it was given
     searchIndex: -2,
     //[-2|-1|0|1|2...]
-    //searchIndex used for searching filetring data in auto-complete
+    //searchIndex used for filetring data in auto-complete
     //-2: filer data if the searched string is a substring
     //-1: filter data which doesn't contain the search string
     //n (0,1,2...): filter data which contains the searched string starting from index n
     staticData: null,
     //e.g [Sample text|<button>Click me</button>...}
-    //statisc data is displayed in the dropdown irrespective of a match or not.
+    //static data is displayed in the dropdown irrespective of a match or not.
     //static data can be both text and html
-    //as static data is rendered repeatedly hence any event regd with this data may lost
-    //but you can add inline javascript event lestener(onclick, onmouseover etc)
+    //as static data is rendered repeatedly hence any event associatd with this data may lost
+    //but you can add inline javascript event listener (onclick, onmouseover etc)
     matchType: 'caseinsesitive',
     //[caseinsesitive|casesensitive]
-    //case is considered dependong upon this variable while matcihng string
+    //case is considered dependong upon this variable while matching string
     allowDuplicate: false
     //[true|false]
     //whether to allow duplicate data field.
@@ -112,7 +112,7 @@ autoComp.showList()
 autoComp.hideList()
 //force hide the dropdown
 autoComp.rebuildList()
-//refreshes content of dropdown list
+//refresh content of dropdown list
 autoComp.destroy()
 //destroys autocomplete object
 ```
