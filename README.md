@@ -117,4 +117,4 @@ autoComp.destroy()
 //destroys autocomplete object
 ```
 
-Developed in 2014
+Developed in year 2014
